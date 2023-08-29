@@ -1,0 +1,16 @@
+* {
+    font-family: Lucida Handwriting;
+}
+
+h1,p {
+    text-align:center;
+  }
+  
+ body {
+    margin: 4% 20%;
+ }
+
+ .fieldset-one {
+    display: block;
+    width: 100%;
+ }

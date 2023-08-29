@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+      <h1 id="title">Survery Form</h1>
+      <p id="description">Thank you for helping us improve the platform.</p>
+
+      <form id="survey-form">
+        <fieldset class="one">
+          <label id="name-label">
+            Name: <input required type="text" id="name" placeholder="Enter your name" class="fieldset-one"/>
+            </label>
+        <label id="email-label">Enter your email: 
+        <input required type="email" id="email" placeholder="Enter your email" class="fieldset-one"/>
+        </label>
+        <label id="number-label">
+          Age(optional): 
+          <input type="number" id="number" min="13" max="121" placeholder="Enter your age" class="fieldset-one"/>
+
+          </label> <label>Select your problem: 
+          <select id="dropdown">
+            <option id="">(select one)</option>
+            <option id="1">None</option>
+            <option id="2">Many</option>
+            </select>
+            </label>
+
+         </fieldset> 
+
+        <fieldset>
+
+            <legend>Would you recommend it to others : </legend>
+
+            <input type="radio" name="radio-option"> Maybe Yes </input>
+          
+             </fieldset>
+             
+
+        <fieldset>
+          <label>
+            You are interested to work in: 
+            </label>
+
+            <label>Front-End <input type="checkbox" value="checkbox-option" /> </label>
+
+<label>Back-End <input type="checkbox" value="checkbox-option" /> </label>
+
+<label>Full Stack <input type="checkbox" value="checkbox-option" /> </label>
+          </fieldset>
+          
+          <fieldset>
+<label>
+            Tell us more about you: 
+            </label>
+          <textarea>
+            </textarea>
+          </fieldset>
+
+          <fieldset>
+            <input type="submit" id="submit">Submit </input>
+          </fieldset>
+        </form>
+      </body>
+  </html>
