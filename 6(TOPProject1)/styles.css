@@ -2,6 +2,19 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 600px) {
+    body {
+      font-size: 10px;
+    }
+  }
+  
+  /* Adjust font size for even smaller viewports */
+  @media (max-width: 400px) {
+    body {
+      font-size: 8px;
+    }
+  }
+
 body {
     
     margin:0;
@@ -46,6 +59,7 @@ body {
 .navbar-extended {
     color: #f9faf8;
     display: flex;
+    overflow: hidden;
     
     flex-direction: row;
     
@@ -71,6 +85,7 @@ body {
     border: none;
     border-radius: 15px;
     z-index: 2;
+    
 }
 
 .navbar-extended.right {
@@ -87,7 +102,7 @@ body {
     align-items: center;
     padding-top: 0;
     margin-top: 0;
-    
+    flex-wrap: wrap;
 }
 
 
