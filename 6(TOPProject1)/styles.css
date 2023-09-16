@@ -1,5 +1,7 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 @media (max-width: 600px) {
@@ -68,7 +70,8 @@ body {
 }
 
 .navbar-extended.left {
-    box-sizing: border-box;
+    display: flex;
+    box-sizing:border-box ;
     flex-wrap: wrap;
     width: 50%;
     
@@ -204,4 +207,13 @@ body {
     border-color: #e5e7eb;
     border-radius: 5px;
 
+}
+
+
+
+h1 {
+    display: initial !important; /* or 'inline' or 'inline-block' depending on your preference */
+    font-size: initial !important; /* or specify your desired font size */
+    margin: 0 !important; /* shorthand for margin-block-start, margin-block-end, margin-inline-start, and margin-inline-end */
+    font-weight: normal !important; /* or specify your desired font weight */
 }

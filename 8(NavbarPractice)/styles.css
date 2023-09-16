@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, li, a, button {
+    text-decoration: none;
+    font-family: Caveat;
+    font-weight: 700;
+    font-size: 32px;
+    color:aliceblue;
+}
+
+header {
+    
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: blue;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: rgba(0,135,170,1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0,135,170,0.7);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+section {
+    font-size: 32px;
+    height:80vh;
+}
+
+#page1 {
+    background-color: aquamarine;
+}
+
+#page2 {
+    background-color: blanchedalmond;
+}
+
+#page3 {
+    background-color: brown;
+}
