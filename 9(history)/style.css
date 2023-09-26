@@ -23,6 +23,7 @@ body {
 }
 
 .logo {
+    cursor: pointer;
     padding: 0;
     margin: 0 20px;
     max-width: auto;
@@ -31,6 +32,7 @@ body {
 
 .navbar-middle {
     display: flex;
+    cursor: pointer;
     padding-left: 100px;
     margin-top: -24px;
     display: flex;
@@ -89,7 +91,7 @@ li,a:hover {
 }
 
 .cards {
-    margin: 0 10%;
+    margin: 50px 10%;
     justify-content: space-around;
     align-items: center;
     display: flex;
